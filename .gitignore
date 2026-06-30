@@ -1,0 +1,38 @@
+# === 依赖 ===
+node_modules/
+**/node_modules/
+
+# === 构建产物 ===
+dist/
+**/dist/
+build/
+
+# === 环境 / 密钥（绝不提交）===
+.env
+.env.*
+!.env.example
+
+# === 系统 / 日志 ===
+.DS_Store
+**/.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === 编辑器 ===
+.vscode/
+.idea/
+*.swp
+
+# === 不开源：2024 旧 Jupyter / Python 原型（含历史密钥，仅本地保留）===
+【1.0】*
+八维诊断MBTI.ipynb
+
+# === 不开源：学术文档与素材 ===
+*.docx
+*.pdf
+*.pptx
+
+# === 顶层图片素材 ===
+文字文稿*.jpg
